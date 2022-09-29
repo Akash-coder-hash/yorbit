@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Template</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <img
+            src="https://thumbs.dreamstime.com/b/recipe-hand-written-word-text-typography-design-green-color-leaf-can-be-used-logo-icon-green-leaf-recipe-hand-138740054.jpg"
+            alt="Simply recipes"
+          />
+          <!-- <a href="index.html" class="nav-logo">
+            <img src="./assets/ll.jpeg" alt="Simply recipes" />
+          </a> -->
+          <div class="search-box">
+            <label for="srch" style="font-size: 0%">search</label>
+            <input
+              id="srch"
+              type="text"
+              class="tbox"
+              placeholder="What can i help you?"
+            />
+            <!-- <i class="bi bi-search">search</i> -->
+            <button class="button">search</button>
+          </div>
+          <!-- <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button> -->
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link" style="margin-left: 20%">
+            home
+          </a>
+          <a href="about.html" class="nav-link" style="margin-left: 20%">
+            about
+          </a>
+          <!-- <a href="tags.html" class="nav-link"> tags </a> -->
+          <!-- <a href="recipes.html" class="nav-link"> recipes </a> -->
+          <!-- <a href="contact.html" class="btn"> contact </a> -->
+          <a href="contact.html" class="nav-link" style="margin-left: 20%">
+            contact
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="featured-recipes">
+        <h1 style="font-size: 30px">Desserts</h1>
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <!-- <a href="double-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Sizzling Brownie with Ice cream</h5>
+            <p>Prep : 10 min | Cook : 30 min</p>
+          </a> -->
+          <a href="third-recipe.html" class="recipe">
+            <img
+              src="https://jiosweet.com/images/thumbs/0000385_nellore-malai-kaja_550.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h2 style="font-size: 20px">Malai Khaja</h2>
+            <p>Prep : 10 min | Cook : 40 min</p>
+          </a>
+        </div>
+        <!-- end of recipe list -->
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <div
+        style="
+          height: 500px;
+          width: 100%;
+          background-color: black;
+          color: white;
+          padding-left: 2%;
+          margin-top: 30%;
+        "
+        ;
+      >
+        <table style="color: white; margin-left: 22%; margin-right: 22%">
+          <caption style="font-size: 0%">
+            footer
+          </caption>
+          <tr>
+            <th colspan="15" style="padding: 60px">Social</th>
+            <th colspan="15" style="padding: 60px">Service</th>
+            <th colspan="15" style="padding: 60px">Activity</th>
+            <th colspan="15" style="padding: 60px">Other</th>
+          </tr>
+
+          <tr>
+            <td colspan="15">
+              <img
+                src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/07/Facebook-logo-on-black-background.jpg?q=50&fit=crop&w=9100&h=500&dpr=1.5"
+                alt="fb logo"
+                style="height: 40px"
+              />
+              <!-- Facebook -->
+            </td>
+            <td colspan="15">Compare</td>
+            <td colspan="15">Influencers</td>
+            <td colspan="15">News</td>
+          </tr>
+          <tr>
+            <td colspan="15">
+              <img
+                src="https://i.ytimg.com/vi/osxjSGdnTME/maxresdefault.jpg"
+                alt="twitter logo"
+                style="height: 40px"
+              />
+              <!-- Twitter -->
+            </td>
+            <td colspan="15">Download</td>
+            <td colspan="15">Affiliate</td>
+            <td colspan="15">About us</td>
+          </tr>
+          <tr>
+            <td colspan="15">
+              <img
+                src="https://i.pinimg.com/originals/6e/f8/30/6ef8303cfc0a2405b5a94d6de0e23bf8.jpg"
+                alt="mail logo"
+                style="height: 60px"
+              />
+              <!-- Mail -->
+            </td>
+            <td colspan="15">Feedback</td>
+            <td colspan="15">Co-branding</td>
+            <td colspan="15">Contact us</td>
+          </tr>
+          <tr>
+            <td colspan="15">
+              <img
+                src="https://i.pinimg.com/736x/21/d6/7f/21d67f1d6b3be5bb2e39395311c77fc6.jpg"
+                alt="insta logo"
+                style="height: 40px"
+              />
+              <!-- Insta -->
+            </td>
+            <td colspan="15">Bug Report</td>
+            <td colspan="15">Honor</td>
+            <td colspan="15">Terms of Use</td>
+          </tr>
+        </table>
+        <p style="margin-left: 25%; margin-top: 2%">
+          &copy; <span id="date"></span> <span><b>AwesomeRecipes</b></span
+          ><b>Built by</b>
+          <span href=""><b>@ Rahul Kumar</b></span>
+        </p>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
